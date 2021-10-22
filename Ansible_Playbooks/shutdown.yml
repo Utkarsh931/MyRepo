@@ -1,0 +1,4 @@
+---# adhoc command to shutdown all nodes 
+
+---# Adhoc command
+ansible all -m shell -a "shutdown -h now"
